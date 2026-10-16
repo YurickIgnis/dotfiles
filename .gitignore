@@ -3,3 +3,15 @@ tmux/plugins/
 raycast
 fzf
 history.txt
+
+# Local credentials, runtime state and dependency trees.
+*.env
+*.env.*
+*.local
+*.local.json
+**/dotfiles.env
+opencode/service.json
+opencode/opencode_new.json
+opencode/node_modules/
+opencode/*session*
+**/.cache/

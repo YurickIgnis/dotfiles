@@ -1,0 +1,7 @@
+{
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  }
+}

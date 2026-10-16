@@ -1,0 +1,11 @@
+# Copy this file to ~/.config/dotfiles.env and add your own values.
+# Never commit ~/.config/dotfiles.env.
+
+export YOUTRACK_TOKEN="Bearer replace-me"
+export CONTEXT7_API_KEY="replace-me"
+export N8N_API_KEY="replace-me"
+export LMSTUDIO_API_KEY="local"
+export GITLAB_TOKEN="replace-me"
+
+# Optional local database connection:
+# export POSTGRES_DATABASE_URI="postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST:-localhost}:${POSTGRES_PORT:-5432}/${POSTGRES_DB}"
