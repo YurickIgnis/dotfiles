@@ -8,16 +8,17 @@ before migrating to Omarchy.
 ## Linux / Omarchy
 
 The Linux branch includes current configurations for Neovim, OpenCode,
-Zsh, Bash, Starship, Foot, Fuzzel, Kitty and Zed. Install GNU Stow, review
-the files, then run:
+Zsh with Oh My Zsh, Bash, Starship, Foot, Fuzzel, Kitty and Zed. Install
+GNU Stow and Git, review the files, then run:
 
 ```bash
 ./install-linux.sh
 ```
 
-The script does not use `--adopt`, overwrite existing files, or install
-credentials. If Stow reports a conflict, make a backup and resolve it
-manually before retrying.
+The script installs pinned revisions of Oh My Zsh and the two external Zsh
+plugins when they are missing. It does not use `--adopt`, overwrite existing
+repositories, or install credentials. If Stow reports a conflict, make a
+backup and resolve it manually before retrying.
 
 OpenCode credentials and local runtime state are deliberately excluded from
 Git. Restore them from your private backup or configure them again on the

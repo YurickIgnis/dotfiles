@@ -1,0 +1,6 @@
+# External repositories used by zshrc-linux/.zshrc.
+# git-flow is bundled with Oh My Zsh and needs no separate clone.
+
+ohmyzsh https://github.com/ohmyzsh/ohmyzsh.git d745fbf3bd49a5038e089d7d343ca89db0cbaaff
+zsh-autosuggestions https://github.com/zsh-users/zsh-autosuggestions.git 85919cd1ffa7d2d5412f6d3fe437ebdbeeec4fc5
+zsh-syntax-highlighting https://github.com/zsh-users/zsh-syntax-highlighting.git 5eb677bb0fa9a3e60f0eff031dc13926e093df92
