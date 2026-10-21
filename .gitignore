@@ -13,5 +13,4 @@ history.txt
 opencode/service.json
 opencode/opencode_new.json
 opencode/node_modules/
-opencode/*session*
 **/.cache/
