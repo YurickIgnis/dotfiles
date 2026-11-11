@@ -36,15 +36,6 @@
         "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
       }
     },
-    "n8n-mcp": {
-      "type": "remote",
-      "url": "https://usi-n8n.slp.gob.mx/mcp-server/http",
-      "enabled": true,
-      "headers": {
-        "Authorization": "{env:N8N_API_KEY}"
-      },
-      "oauth": false
-    },
     "chrome-devtools": {
       "type": "local",
       "command": [
