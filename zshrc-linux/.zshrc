@@ -125,6 +125,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # opencode
 export PATH=${HOME}/.opencode/bin:$PATH
+alias oc="opencode"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:${HOME}/.lmstudio/bin"
